@@ -1,4 +1,5 @@
-[
+{
+  "jobs": [
     {
       "id": "1",
       "title": "Senior React Developer",
@@ -82,5 +83,56 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "f32c",
+      "title": "Full stack Django",
+      "type": "Full-Time",
+      "location": {
+        "ancestorOrigins": {},
+        "href": "http://localhost:3000/add-job",
+        "origin": "http://localhost:3000",
+        "protocol": "http:",
+        "host": "localhost:3000",
+        "hostname": "localhost",
+        "port": "3000",
+        "pathname": "/add-job",
+        "search": "",
+        "hash": ""
+      },
+      "description": "Django test project 1",
+      "salary": "$100K - 125K",
+      "company": {
+        "name": "Nest Solutions",
+        "description": "Nest solution Django project to test",
+        "contactEmail": "nest@nest.com",
+        "contactPhone": "0705203169"
+      }
+    },
+    {
+      "id": "e565",
+      "title": "Test job 1",
+      "type": "Part-Time",
+      "location": {
+        "ancestorOrigins": {},
+        "href": "http://localhost:3000/add-job",
+        "origin": "http://localhost:3000",
+        "protocol": "http:",
+        "host": "localhost:3000",
+        "hostname": "localhost",
+        "port": "3000",
+        "pathname": "/add-job",
+        "search": "",
+        "hash": ""
+      },
+      "description": "My test job",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Nest Solutions",
+        "description": "Amazing company culture",
+        "contactEmail": "nest@nest.com",
+        "contactPhone": "0705203169"
+      }
     }
-]
+  ]
+}
