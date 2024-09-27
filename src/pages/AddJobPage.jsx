@@ -20,16 +20,16 @@ const AddJobPage = ({ addJobSubmit }) => {
         e.preventDefault();
 
         const newJob = {
-            title,
-            type,
-            location,
-            description,
-            salary,
+            title: title,
+            type: type,
+            location: location,
+            description: description,
+            salary: salary,
             company: {
                 name: companyName,
                 description: companyDescription,
-                contactEmail,
-                contactPhone,
+                contactEmail: contactEmail,
+                contactPhone: contactPhone,
             },
         };
         addJobSubmit(newJob)
@@ -38,7 +38,8 @@ const AddJobPage = ({ addJobSubmit }) => {
     }
 
   return (
-    <section className="bg-indigo-50">
+      <>
+      <section className="bg-indigo-50">
       <div className="container m-auto max-w-2xl py-24">
         <div
           className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0"
@@ -67,8 +68,8 @@ const AddJobPage = ({ addJobSubmit }) => {
 
             <div className="mb-4">
               <label className="block text-gray-700 font-bold mb-2"
-                >Job Listing Name</label
-              >
+                >Job Listing Name</label>
+              
               <input
                 type="text"
                 id="title"
@@ -84,8 +85,8 @@ const AddJobPage = ({ addJobSubmit }) => {
               <label
                 htmlFor="description"
                 className="block text-gray-700 font-bold mb-2"
-                >Description</label
-              >
+                >Description</label>
+              
               <textarea
                 id="description"
                 name="description"
@@ -99,16 +100,16 @@ const AddJobPage = ({ addJobSubmit }) => {
 
             <div className="mb-4">
               <label htmlFor="type" className="block text-gray-700 font-bold mb-2"
-                >Salary</label
-              >
+                >Salary</label>
+              
               <select
                 id="salary"
                 name="salary"
                 className="border rounded w-full py-2 px-3"
                 required
                 value={salary}
-                onChange={(e) => setSalary(e.target.value)}
-              >
+                onChange={(e) => setSalary(e.target.value)}>
+              
                 <option value="Under $50K">Under $50K</option>
                 <option value="$50K - 60K">$50K - $60K</option>
                 <option value="$60K - 70K">$60K - $70K</option>
@@ -135,16 +136,16 @@ const AddJobPage = ({ addJobSubmit }) => {
                 placeholder='Company Location'
                 required    
                 value={location}
-                onChange={(e) => setLocation(e.target.value)}       
-              />
+                onChange={(e) => setLocation(e.target.value)}/>    
+              
             </div>
 
             <h3 className="text-2xl mb-5">Company Info</h3>
 
             <div className="mb-4">
               <label htmlFor="company" className="block text-gray-700 font-bold mb-2"
-                >Company Name</label
-              >
+                >Company Name</label>
+              
               <input
                 type="text"
                 id="company"
@@ -152,16 +153,16 @@ const AddJobPage = ({ addJobSubmit }) => {
                 className="border rounded w-full py-2 px-3"
                 placeholder="Company Name"
                 value={companyName}
-                onChange={(e) => setCompanyName(e.target.value)}
-              />
+                onChange={(e) => setCompanyName(e.target.value)}/>
+              
             </div>
 
             <div className="mb-4">
               <label
                 htmlFor="company_description"
                 className="block text-gray-700 font-bold mb-2"
-                >Company Description</label
-              >
+                >Company Description</label>
+              
               <textarea
                 id="company_description"
                 name="company_description"
@@ -177,8 +178,8 @@ const AddJobPage = ({ addJobSubmit }) => {
               <label
                 htmlFor="contact_email"
                 className="block text-gray-700 font-bold mb-2"
-                >Contact Email</label
-              >
+                >Contact Email</label>
+              
               <input
                 type="email"
                 id="contact_email"
@@ -187,15 +188,14 @@ const AddJobPage = ({ addJobSubmit }) => {
                 placeholder="Email address for applicants"
                 required
                 value={contactEmail}
-                onChange={(e) => setCopmanyEmail(e.target.value)}
-              />
+                onChange={(e) => setCopmanyEmail(e.target.value)}/>
             </div>
             <div className="mb-4">
               <label
                 htmlFor="contact_phone"
                 className="block text-gray-700 font-bold mb-2"
-                >Contact Phone</label
-              >
+                >Contact Phone</label>
+              
               <input
                 type="tel"
                 id="contact_phone"
@@ -203,15 +203,13 @@ const AddJobPage = ({ addJobSubmit }) => {
                 className="border rounded w-full py-2 px-3"
                 placeholder="Optional phone for applicants"
                 value={contactPhone}
-                onChange={(e) => setCompanyPhone(e.target.value)}
-              />
+                onChange={(e) => setCompanyPhone(e.target.value)}/>
             </div>
 
             <div>
               <button
                 className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
-                type="submit"
-              >
+                type="submit">
                 Add Job
               </button>
             </div>
@@ -219,6 +217,7 @@ const AddJobPage = ({ addJobSubmit }) => {
         </div>
       </div>
     </section>
+      </>
 
   )
 }

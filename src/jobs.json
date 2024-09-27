@@ -85,53 +85,17 @@
       }
     },
     {
-      "id": "f32c",
-      "title": "Full stack Django",
+      "id": "5f9d",
+      "title": "Python django",
       "type": "Full-Time",
-      "location": {
-        "ancestorOrigins": {},
-        "href": "http://localhost:3000/add-job",
-        "origin": "http://localhost:3000",
-        "protocol": "http:",
-        "host": "localhost:3000",
-        "hostname": "localhost",
-        "port": "3000",
-        "pathname": "/add-job",
-        "search": "",
-        "hash": ""
-      },
-      "description": "Django test project 1",
-      "salary": "$100K - 125K",
-      "company": {
-        "name": "Nest Solutions",
-        "description": "Nest solution Django project to test",
-        "contactEmail": "nest@nest.com",
-        "contactPhone": "0705203169"
-      }
-    },
-    {
-      "id": "e565",
-      "title": "Test job 1",
-      "type": "Part-Time",
-      "location": {
-        "ancestorOrigins": {},
-        "href": "http://localhost:3000/add-job",
-        "origin": "http://localhost:3000",
-        "protocol": "http:",
-        "host": "localhost:3000",
-        "hostname": "localhost",
-        "port": "3000",
-        "pathname": "/add-job",
-        "search": "",
-        "hash": ""
-      },
-      "description": "My test job",
+      "location": "Nairobi",
+      "description": "Api development",
       "salary": "Under $50K",
       "company": {
-        "name": "Nest Solutions",
-        "description": "Amazing company culture",
+        "name": "Nest",
+        "description": "good work ethic",
         "contactEmail": "nest@nest.com",
-        "contactPhone": "0705203169"
+        "contactPhone": "254705203169"
       }
     }
   ]
