@@ -85,17 +85,17 @@
       }
     },
     {
-      "id": "5f9d",
-      "title": "Python django",
+      "id": "6407",
+      "title": "Django API Developer",
       "type": "Full-Time",
       "location": "Nairobi",
-      "description": "Api development",
+      "description": "API dev, database management",
       "salary": "Under $50K",
       "company": {
-        "name": "Nest",
-        "description": "good work ethic",
+        "name": "Niest Global",
+        "description": "Our mission is to make business easy by integrating full stack sotfwares",
         "contactEmail": "nest@nest.com",
-        "contactPhone": "254705203169"
+        "contactPhone": "2548765677677"
       }
     }
   ]
